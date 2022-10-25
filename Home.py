@@ -83,8 +83,8 @@ with st.expander("See Details Related to the Model's Training Procedure", expand
     col4.metric("Jaccard Index", "0.83")
     col5.metric("Specificity", "0.90")
     col6.metric("Sensitivity", "0.57")
-y = st.markdown("### Charts Related to the Model's Training Procedure")    
-with st.expander(y, expanded=True):    
+   
+with st.expander("Charts Related to the Model's Training Procedure. Each Heading Contains a Related Chart", expanded=True):    
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["ROC Curves", 
                                             "Model Training Algorithm", 
                                             "Feature Importance Plot by GBC", 
