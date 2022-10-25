@@ -94,7 +94,7 @@ with st.expander("Charts Related to the Model's Training Procedure. Each Heading
     with tab1:
         st.markdown("""
         **ROC Curves of the Models on the Testing Set**""")
-        st.image("project_data/ROC_Curves_of_the_Models_on_the_Testing_Set.png")
+        st.image("project_data/ROC_Curves_of_the_Models_on_the_Testing_Set.png",)
 
     with tab2:
         st.markdown("""
