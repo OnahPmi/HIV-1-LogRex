@@ -92,34 +92,34 @@ with st.expander("Charts Related to the Model's Training Procedure. Each Heading
                                             "10-Fold CV Metrics Distribution"])
 
     with tab1:
-        st.markdown("""
-        **ROC Curves of the Models on the Testing Set**""")
-        st.image(["project_data/ROC_Curves_of_the_Models_on_the_Testing_Set.png", "project_data/Model_Training_Flow_Chart.jpg", "project_data/Plot_of_feature_importance_for_GB_classifier.png", "project_data/seq_logo_of_cleaved_&_uncleaved_octapeptides.png", "project_data/Distribution_of_the_Performance_Metrics_Across_the_Models.png"],)
+        # st.markdown("""
+        # **ROC Curves of the Models on the Testing Set**""")
+        st.image("project_data/ROC_Curves_of_the_Models_on_the_Testing_Set.png", caption="ROC Curves of the Models on the Testing Set")
 
     with tab2:
-        st.markdown("""
-        **Model Training Algorithm**""")
-        st.image("project_data/Model_Training_Flow_Chart.jpg")
+        # st.markdown("""
+        # **Model Training Algorithm**""")
+        st.image("project_data/Model_Training_Flow_Chart.jpg", caption="Model Training Algorithm")
 
     with tab3:
-        st.markdown("""
-        **Gini importance chart of the best 20 features selected by the Gradient Boosting Classifier**""")
-        st.image("project_data/Plot_of_feature_importance_for_GB_classifier.png")
+        # st.markdown("""
+        # **Gini importance chart of the best 20 features selected by the Gradient Boosting Classifier**""")
+        st.image("project_data/Plot_of_feature_importance_for_GB_classifier.png", caption="Gini importance chart of the best 20 features selected by the Gradient Boosting Classifier")
 
     with tab4:
-        st.markdown("""
-        **The sequence logos of A) cleaved octapeptide; B) un-cleaved octapeptide sequences generated
-        with the online Seq2Logo webserver using Heuristic clustering algorithm, pseudo count with a
-        weight of 200 and logotype as Kullback–Leibler. Enriched amino acids are shown on the positive
-        y-axis and depleted amino acids on the negative y-axis**""")
-        st.image("project_data/seq_logo_of_cleaved_&_uncleaved_octapeptides.png")
+        # st.markdown("""
+        # **The sequence logos of A) cleaved octapeptide; B) un-cleaved octapeptide sequences generated
+        # with the online Seq2Logo webserver using Heuristic clustering algorithm, pseudo count with a
+        # weight of 200 and logotype as Kullback–Leibler. Enriched amino acids are shown on the positive
+        # y-axis and depleted amino acids on the negative y-axis**""")
+        st.image("project_data/seq_logo_of_cleaved_&_uncleaved_octapeptides.png", caption="The sequence logos of A) cleaved octapeptide; B) un-cleaved octapeptide sequences generated with the online Seq2Logo webserver using Heuristic clustering algorithm, pseudo count with a weight of 200 and logotype as Kullback–Leibler. Enriched amino acids are shown on the positive y-axis and depleted amino acids on the negative y-axis")
 
     with tab5:
-        st.markdown("""
-        **Distribution of the performance metrics scores of the models in the 10-fold CV experiment for
-        each of the 6 standard tests conducted. a) Balanced Accuracy Scores; b) Sensitivity Scores; c)
-        Specificity Scores; d) F-score; e) AUC; and f) Jaccard Index Scores**""")
-        st.image("project_data/Distribution_of_the_Performance_Metrics_Across_the_Models.png")
+        # st.markdown("""
+        # **Distribution of the performance metrics scores of the models in the 10-fold CV experiment for
+        # each of the 6 standard tests conducted. a) Balanced Accuracy Scores; b) Sensitivity Scores; c)
+        # Specificity Scores; d) F-score; e) AUC; and f) Jaccard Index Scores**""")
+        st.image("project_data/Distribution_of_the_Performance_Metrics_Across_the_Models.png", caption="Distribution of the performance metrics scores of the models in the 10-fold CV experiment for each of the 6 standard tests conducted. a) Balanced Accuracy Scores; b) Sensitivity Scores; c) Specificity Scores; d) F-score; e) AUC; and f) Jaccard Index Scores")
     
 with st.container():
     st.markdown("""
