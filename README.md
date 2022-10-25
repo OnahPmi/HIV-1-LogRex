@@ -1,4 +1,4 @@
-# Welcome to HIV1-LogRex Webserver for Octapeptide Cleavage Site Prediction
+# Welcome to HIV1-LogRex Webserver
 ***
 ##  This server impliments varied algorithms for octapeptide descriptors calculations and the logistic regression model (`HIV1-LogRex`) for HIV-1 protease cleavage site prediction for various machine/deep learning applications in bioinformatics.
 ##### This work has been accepted at _BMC Bioinformatics_ for publication, and a link shall be available soon. Meanwhile, a preprint is available at [ResearchSquare](https://doi.org/10.21203/rs.3.rs-1688464/v1)
