@@ -13,7 +13,7 @@ st.set_page_config(page_title="Home", page_icon="project_data/favicon.jpg", layo
 
 with st.container():
     st.markdown("""
-    ## Welcome to HIV1-LogRex Webserver
+    # `Welcome to HIV1-LogRex Webserver`
     """)
     st.markdown("***")
     st.markdown("""
