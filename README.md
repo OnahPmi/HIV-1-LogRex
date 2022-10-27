@@ -1,5 +1,7 @@
 # Welcome to HIV1-LogRex Webserver
 ***
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://<your-custom-subdomain>.streamlitapp.com)
+***
 ##  This server impliments varied algorithms for octapeptide descriptors calculations and the logistic regression model (`HIV1-LogRex`) for HIV-1 protease cleavage site prediction for various machine/deep learning applications in bioinformatics.
 ##### This work has been accepted at _BMC Bioinformatics_ for publication, and a link shall be available soon. Meanwhile, a preprint is available at [ResearchSquare](https://doi.org/10.21203/rs.3.rs-1688464/v1)
 **In most parts of the world, especially in underdeveloped countries, _Acquired Immunodeficiency Syndrome (AIDS)_ still remains a major cause of death, disability and unfavorable economic outcomes. This has necessitated intensive research to develop effective therapeutic agents for the treatment of _Human Immunodeficiency Virus (HIV)_ infection, which is responsible for AIDS.  Peptide cleavage by `HIV-1 protease` is an essential step in the replication of HIV-1. Thus, correct and timely prediction ofthe cleavage site of HIV-1 protease can significantly speed up and optimize the drug discovery process of novel HIV-1 protease inhibitors.**
