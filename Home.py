@@ -138,10 +138,9 @@ with st.container():
      * The authors have published a number of works in the _in silico_ drug design/bioinformatics domain spanning across
        various disease conditions like `Cancer`, `Infectious Diseases`, and `Neurodegenerative Disorders`. Notable examples
        include:  
-        * Onah E, Uzor F.P., Ugwoke I.C., et al. Prediction of HIV-1 Protease Cleavage Site from Octapeptide Sequence 
-          Information using Selected Classifiers and Hybrid Descriptors. Accepted at BMC Bioinformatics for publication.
-          A Priprint (Version 1) is available at Research Square
-          [https://doi.org/10.21203/rs.3.rs-1688464/v1](https://doi.org/10.21203/rs.3.rs-1688464/v1). 
+        * Onah, E., Uzor, P.F., Ugwoke, I.C. et al. (2022) Prediction of HIV-1 protease cleavage site from octapeptide sequence  
+          information using selected classifiers and hybrid descriptors. BMC Bioinformatics 23, 466.  
+          [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x). 
         * Ibezim A., Onah E., Dim E.N., and Ntie-Kang F. (2021). A Computational Multi-targeting Approach for Psoriasis 
           Treatment. BMC Complementary Medicine and Therapies, 21(1), 193.
           [https://doi.org/10.1186/s12906-021-03359-2](https://doi.org/10.1186/s12906-021-03359-2).
