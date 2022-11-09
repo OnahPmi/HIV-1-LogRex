@@ -41,8 +41,7 @@ with st.container():
         """)
     
     st.markdown("""
-    **This work has been accepted at _BMC Bioinformatics_ for publication, and a link shall be available soon. Meanwhile,
-    a preprint is available at [ResearchSquare](https://doi.org/10.21203/rs.3.rs-1688464/v1)**""")
+    **This work has been published at _BMC Bioinformatics_ [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x)
 
 with st.expander("See Details Related to the Model's Training Procedure", expanded=True):
     st.markdown("""
