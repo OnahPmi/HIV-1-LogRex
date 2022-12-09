@@ -73,7 +73,8 @@ with st.expander("See Details Related to the Model's Training Procedure", expand
      This supports previous findings that water accessibility served as a discriminative factor to predict cleavage sites 
      [Warut et. al, 2022]( https://doi.org/10.1155/2022/8513719).
      ***
-     Some of the performance metrics employed during model training and their values are shown below:""")
+     Some of the performance metrics employed during model training and their values are shown below:
+     """)
     
     col1, col2, col3, col4, col5, col6 = st.columns(6)
     col1.metric("Balanced Accuracy", "90.9 %")
