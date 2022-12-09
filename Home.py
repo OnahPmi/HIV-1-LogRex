@@ -39,48 +39,7 @@ with st.container():
         * The **`Calculate Descriptor`** tool calculates and returns a CSV file of the calculated descriptors which can
           be downloaded for various machine/deep learning applications in the design of potent HIV drugs.
         """)
-    
-st.markdown("""This work has been published at _BMC Bioinformatics_ [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x)""")
-
-with st.expander("See Details Related to the Model's Training Procedure", expanded=True):
-     st.markdown("""In most parts of the world, especially in underdeveloped countries, _Acquired Immunodeficiency Syndrome (AIDS)_ 
-     still remains a major cause of death, disability and unfavorable economic outcomes. This has necessitated 
-     intensive research to develop effective therapeutic agents for the treatment of _Human Immunodeficiency Virus 
-     (HIV)_ infection, which is responsible for AIDS.  Peptide cleavage by `HIV-1 protease` is an essential step in 
-     the replication of HIV-1. Thus, correct and timely prediction of the cleavage site of HIV-1 protease can 
-     significantly speed up and optimize the drug discovery process of novel HIV-1 protease inhibitors.
-     ***
-     In this work, we present a `Logistic Regression Model` for predicting the substrate specificity and cleavage 
-     site of HIV-1 protease. First, we built and compared the performance of selected machine learning models for 
-     the prediction of HIV-1 protease cleavage site utilizing a hybrid of octapeptide sequence information comprising 
-     `bond composition`, `amino acid binary profile (AABP)`, and `physicochemical properties` as numerical descriptors 
-     serving as input variables for some selected machine learning algorithms. Our work differs from antecedent 
-     studies exploring the same subject in the combination of octapeptide descriptors and method used. Instead of 
-     using various subsets of the dataset for training and testing the models, we combined the dataset, applied a 
-     3-way data split, and then used a "stratified" 10-fold cross-validation technique alongside the testing set
-     to evaluate the models.
-     ***
-     This procedure showed that the `logistic regression model` and the `multi-layer perceptron classifier` achieved
-     superior performance comparable to that of the state-of-the-art model, `linear support vector machine`. Our feature 
-     selection algorithm implemented via the `decision tree algorithm` showed that the underlisted descriptors were the top 
-     features selected during the models' training. 
-     * `AABP → Amino Acid Binary Profile`
-     * `PCP_BS → Composition of basic residues` 
-     * `PCP_HL → Composition of hydrophilic residues` 
-     ***
-     This supports previous findings that water accessibility served as a discriminative factor to predict cleavage sites 
-     [Warut et. al, 2022]( https://doi.org/10.1155/2022/8513719).
-     ***
-     Some of the performance metrics employed during model training and their values are shown below:
-     """)
-    
-    col1, col2, col3, col4, col5, col6 = st.columns(6)
-    col1.metric("Balanced Accuracy", "90.9 %")
-    col2.metric("AUC", "0.97")
-    col3.metric("F-Index", "0.91")
-    col4.metric("Jaccard Index", "0.83")
-    col5.metric("Specificity", "0.90")
-    col6.metric("Sensitivity", "0.57")
+   
    
 with st.expander("Charts Related to the Model's Training Procedure. Each Heading Contains a Related Chart", expanded=True):    
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["ROC Curves", 
