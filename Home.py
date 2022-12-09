@@ -43,8 +43,7 @@ with st.container():
 st.markdown("""This work has been published at _BMC Bioinformatics_ [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x)""")
 
 with st.expander("See Details Related to the Model's Training Procedure", expanded=True):
-     st.markdown("""
-     In most parts of the world, especially in underdeveloped countries, _Acquired Immunodeficiency Syndrome (AIDS)_ 
+     st.markdown("""In most parts of the world, especially in underdeveloped countries, _Acquired Immunodeficiency Syndrome (AIDS)_ 
      still remains a major cause of death, disability and unfavorable economic outcomes. This has necessitated 
      intensive research to develop effective therapeutic agents for the treatment of _Human Immunodeficiency Virus 
      (HIV)_ infection, which is responsible for AIDS.  Peptide cleavage by `HIV-1 protease` is an essential step in 
