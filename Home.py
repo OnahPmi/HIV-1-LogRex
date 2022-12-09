@@ -41,8 +41,7 @@ with st.container():
         """)
     
     st.markdown("""
-    **This work has been published at _BMC Bioinformatics_ [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x 
-                ***)
+    **This work has been published at _BMC Bioinformatics_ [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x""")
 
 with st.expander("See Details Related to the Model's Training Procedure", expanded=True):
     st.markdown("""
