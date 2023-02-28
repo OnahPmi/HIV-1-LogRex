@@ -24,7 +24,7 @@ with st.container():
     
     st.markdown("""
     **The calculated features such as the _amino acid binary profile_, which is a `one-hot-encoding` of peptides and some 
-    physicochemical properties are needed for bulding robust models for the task of predicting the cleavage status of an 
+    physicochemical properties are needed for building robust models for the task of predicting the cleavage status of an 
     octapeptide. The sidebar shows the implementation of the various tools this webserver has to offer.**
     """)
     st.markdown("***")
