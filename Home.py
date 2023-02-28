@@ -17,15 +17,15 @@ with st.container():
     """)
     st.markdown("***")
     st.markdown("""
-    **This server impliments varied algorithms for octapeptide descriptors calculations and the logistic regression model 
+    **This server implements varied algorithms for octapeptide descriptors calculations and the logistic regression model 
     (`HIV1-LogRex`) for HIV-1 protease cleavage site prediction for various machine/deep learning applications in 
     bioinformatics.**
     """)
     
     st.markdown("""
     **The calculated features such as the _amino acid binary profile_, which is a `one-hot-encoding` of peptides and some 
-    physicochemical properties are needed for bulding rubost models for the task of predicting the cleavage status of an 
-    octapeptide. The sidebar shows the implimentation of the various tools this webserver has to offer.**
+    physicochemical properties are needed for bulding robust models for the task of predicting the cleavage status of an 
+    octapeptide. The sidebar shows the implementation of the various tools this webserver has to offer.**
     """)
     st.markdown("***")
     col1, col2 = st.columns(2)
