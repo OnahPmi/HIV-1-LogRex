@@ -84,10 +84,10 @@ with st.expander("See Details Related to the Model's Training Procedure", expand
     col6.metric("Sensitivity", "0.57")
     
 with st.expander("Charts Related to the Model's Training Procedure", expanded=True):    
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Sequence Logos of Cleaved and Uncleaved Octapeptides", 
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["ROC Curves", 
                                             "Model Training Algorithm", 
                                             "Feature Importance Plot by GBC", 
-                                            "ROC Curves", 
+                                            "Sequence Logos of Cleaved and Uncleaved Octapeptides", 
                                             "10-Fold CV Metrics Distribution"])
 
     with tab1:
