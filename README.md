@@ -1,4 +1,7 @@
 # HIV1-LogRex Webserver: Accelerate HIV-1 Protease Inhibitor Discovery 
+
+<img src="./project_data/interface.png" alt="model"  width="100%"/>
+
 **[HIV1-LogRex](https://hiv-1-logrex.streamlit.app/)** is a user-friendly webserver that provides powerful tools for predicting HIV-1 protease cleavage sites, a crucial step in HIV-1 replication. Leveraging machine learning algorithms, HIV1-LogRex empowers researchers to optimize the drug discovery process for novel HIV-1 protease inhibitors. It also implements varied algorithms for octapeptide descriptors calculations (amino acid binary profile (AABP), physicochemical properties and bond composition).
 
 ## Addressing a Global Challenge:
