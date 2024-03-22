@@ -1,24 +1,29 @@
-# Welcome to HIV1-LogRex Webserver [![DOI](https://zenodo.org/badge/556917932.svg)](https://zenodo.org/doi/10.5281/zenodo.10851066)
+# HIV1-LogRex Webserver: Accelerate HIV-1 Protease Inhibitor Discovery 
+This user-friendly webserver provides powerful tools for predicting HIV-1 protease cleavage sites, a crucial step in HIV-1 replication. Leveraging machine learning algorithms, HIV1-LogRex empowers researchers to optimize the drug discovery process for novel HIV-1 protease inhibitors.
 
-URL: [https://hiv-1-logrex.streamlit.app/](https://hiv-1-logrex.streamlit.app/)
+## Addressing a Global Challenge:
+HIV/AIDS remains a significant public health concern, particularly in developing nations. Effective therapeutic strategies are critical to combat this devastating disease. HIV1-LogRex directly addresses this need by facilitating the development of new drugs that target the HIV-1 virus at a fundamental level.
 
-##  This server impliments varied algorithms for octapeptide descriptors calculations and the logistic regression model (`HIV1-LogRex`) for HIV-1 protease cleavage site prediction for various machine/deep learning applications in bioinformatics.
-##### This work has been published at _BMC Bioinformatics_ [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x)
-**In most parts of the world, especially in underdeveloped countries, _Acquired Immunodeficiency Syndrome (AIDS)_ still remains a major cause of death, disability and unfavorable economic outcomes. This has necessitated intensive research to develop effective therapeutic agents for the treatment of _Human Immunodeficiency Virus (HIV)_ infection, which is responsible for AIDS.  Peptide cleavage by `HIV-1 protease` is an essential step in the replication of HIV-1. Thus, correct and timely prediction ofthe cleavage site of HIV-1 protease can significantly speed up and optimize the drug discovery process of novel HIV-1 protease inhibitors.**
-***
-**In this work, we present a `Logistic Regression Model` for predicting the substrate specificity and cleavage site of HIV-1 protease. First, we built and compared the performance of selected machine learning models for the prediction of HIV-1 protease cleavage site utilizing a hybrid of octapeptide sequence information comprising 
-`bond composition`, `amino acid binary profile (AABP)`, and `physicochemical properties` as numerical descriptors serving as input variables for some selected machine learning algorithms. Our work differs from antecedent studies exploring the same subject in the combination of octapeptide descriptors and method used. Instead of using various subsets of the dataset for training and testing the models, we combined the dataset, applied a 3-way data split, and then used a "stratified" 10-fold cross-validation technique alongside the testing set to evaluate the models.**
-***
-**This procedure showed that the `logistic regression model` and the `multi-layer perceptron classifier` achieve superior performance comparable to that of the state-of-the-art model, `linear support vector machine`. Our feature selection algorithm implemented via the `Decision tree model` showed that**: 
+## How HIV1-LogRex Works:
+The HIV-1 protease plays a vital role in HIV-1 replication. Accurately predicting the cleavage sites of this enzyme is essential for designing effective HIV-1 protease inhibitors. HIV1-LogRex offers:
+Varied Algorithms: Explore diverse machine learning models tailored for HIV-1 protease cleavage site prediction.
+Octapeptide Descriptors: Utilize a unique combination of sequence information incorporating bond composition, amino acid properties, and physicochemical features for comprehensive analysis.
+Logistic Regression Model (HIV1-LogRex): Access a highly accurate model specifically designed for predicting the substrate specificity and cleavage site of HIV-1 protease.
 
-* `AABP → Amino Acid Binary Profile` **and two of the physicochemical properties, mamely**: 
-* `PCP_BS → Composition of basic residues`, **and** 
-* `PCP_HL → Composition of hydrophilic residues` 
+## Innovation and Rigorous Evaluation:
+**HIV1-LogRex distinguishes itself by:**
 
-**were top features selected by during model training. This supports previous findings that water accessibility served as a discriminative factor to predict cleavage sites [Warut et. al, 2022]( https://doi.org/10.1155/2022/8513719).**
+- Hybrid Feature Set: The webserver employs a novel combination of octapeptide descriptors, leading to potentially superior prediction accuracy.
+	- Amino Acid Binary Profile (AABP)
+  -	Physicochemical properties
+  -	Bond composition
+- Combined Dataset: Unlike previous studies, HIV1-LogRex leverages a comprehensive dataset for training and evaluation, ensuring robust model performance.
+- Stratified Cross-Validation: This rigorous validation technique guarantees consistent and reliable model performance.
 
+## Getting Started:
+Visit the HIV1-LogRex Webserver at [https://hiv-1-logrex.streamlit.app/](https://hiv-1-logrex.streamlit.app/) [![DOI](https://zenodo.org/badge/556917932.svg)](https://zenodo.org/doi/10.5281/zenodo.10851066)
+The user-friendly interface allows you to effortlessly upload octapeptide sequences for analysis.
 
-# Citation:
-**If you make use of HIV-1-LogRex Server in your work, cite it as follows:**
-
-**Onah E. (2024). HIV-1-LogRex (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.**
+## Citation:
+If you utilize HIV1-LogRex in your research, please cite it as follows:
+Onah E. (2024). HIV-1-LogRex (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.
