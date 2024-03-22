@@ -27,13 +27,13 @@ The HIV-1 protease plays a vital role in HIV-1 replication. Accurately predictin
 ## Getting Started:
 Visit the **HIV1-LogRex** at [https://hiv-1-logrex.streamlit.app/](https://hiv-1-logrex.streamlit.app/). The user-friendly interface allows you to effortlessly upload octapeptide sequences for analysis.
 
-# Installation:
+## Installation:
 No installation is required.
 
-# License: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## License: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 **HIV1-LogRex** is freely available under the MIT License, enabling open access and unrestricted use. 
 
-# Feedback and Contribution:
+## Feedback and Contribution:
 We welcome your feedback and suggestions for further enhancing **HIV1-LogRex**. Feel free to reach out and share your thoughts. Additionally, if you're interested in contributing to the codebase, please don't hesitate to get in touch.
 
 ## Citation: [![DOI](https://zenodo.org/badge/556917932.svg)](https://zenodo.org/doi/10.5281/zenodo.10851066)
