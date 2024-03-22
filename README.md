@@ -1,4 +1,7 @@
-# Welcome to HIV1-LogRex Webserver [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hiv-1-logrex.streamlit.app/)
+# Welcome to HIV1-LogRex Webserver [![DOI](https://zenodo.org/badge/556917932.svg)](https://zenodo.org/doi/10.5281/zenodo.10851066)
+
+URL: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hiv-1-logrex.streamlit.app/)
+
 ##  This server impliments varied algorithms for octapeptide descriptors calculations and the logistic regression model (`HIV1-LogRex`) for HIV-1 protease cleavage site prediction for various machine/deep learning applications in bioinformatics.
 ##### This work has been published at _BMC Bioinformatics_ [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x)
 **In most parts of the world, especially in underdeveloped countries, _Acquired Immunodeficiency Syndrome (AIDS)_ still remains a major cause of death, disability and unfavorable economic outcomes. This has necessitated intensive research to develop effective therapeutic agents for the treatment of _Human Immunodeficiency Virus (HIV)_ infection, which is responsible for AIDS.  Peptide cleavage by `HIV-1 protease` is an essential step in the replication of HIV-1. Thus, correct and timely prediction ofthe cleavage site of HIV-1 protease can significantly speed up and optimize the drug discovery process of novel HIV-1 protease inhibitors.**
@@ -13,3 +16,9 @@
 * `PCP_HL → Composition of hydrophilic residues` 
 
 **were top features selected by during model training. This supports previous findings that water accessibility served as a discriminative factor to predict cleavage sites [Warut et. al, 2022]( https://doi.org/10.1155/2022/8513719).**
+
+
+# Citation:
+**If you make use of ChemFetchTool in your work, cite it as follows:**
+
+**Emmanuel Onah. (2024). HIV-1-LogRex (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.**
