@@ -17,9 +17,9 @@ Logistic Regression Model (HIV1-LogRex): Access a highly accurate model specific
 **HIV1-LogRex distinguishes itself by:**
 
 - Hybrid Feature Set: The webserver employs a novel combination of octapeptide descriptors, leading to potentially superior prediction accuracy.
-	- Amino Acid Binary Profile (AABP)
-  -	Physicochemical properties
-  -	Bond composition
+	- `Amino Acid Binary Profile (AABP)`
+  -	`Physicochemical properties`
+  -	`Bond composition`
 - Combined Dataset: Unlike previous studies, HIV1-LogRex leverages a comprehensive dataset for training and evaluation, ensuring robust model performance.
 - Stratified Cross-Validation: This rigorous validation technique guarantees consistent and reliable model performance.
 
