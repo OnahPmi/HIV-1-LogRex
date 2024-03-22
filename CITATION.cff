@@ -1,0 +1,15 @@
+# YAML 1.2
+# Metadata for citation of ChemFetchTool according to the CFF format (https://citation-file-format.github.io/)
+cff-version: 1.2.0
+message: "If you use Hiv-1-LogRex in your research, please cite it using this information."
+authors:
+- family-names: "Onah"
+  given-names: "Emmanuel"
+  orcid: "https://orcid.org/0000-0003-2201-7607"
+title: "Hiv-1-LogRex"
+version: 1.0.0
+doi: 10.5281/zenodo.10851067
+date-released: 2022-10-27
+license: "MIT License"
+description: "HIV1-LogRex implements varied algorithms for octapeptide descriptors calculations and the logistic regression model for HIV-1 protease octapeptide cleavage site prediction "
+url: "https://hiv-1-logrex.streamlit.app/"
