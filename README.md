@@ -1,4 +1,4 @@
-# HIV1-LogRex Webserver: Accelerate HIV-1 Protease Inhibitor Discovery 
+## [HIV1-LogRex](https://hiv-1-logrex.streamlit.app/): Accelerate HIV-1 Protease Inhibitor Discovery 
 
 <img src="./project_data/interface.png" alt="model"  width="100%"/>
 
