@@ -17,12 +17,18 @@ st.set_page_config(page_title="Calculate Descriptors",
                    initial_sidebar_state="expanded",
                    menu_items={'About': "HIV1-LogRex: Predicting Octapeptide Sequence Cleavage Site"})
 
-cola11, cola22 = st.columns([0.8, 0.2], gap="large")
-cola11.title(":rainbow[Welcome to HIV1-LogRex Webserver]")
-cola11.divider()
+st.write("## :rainbow[Welcome to HIV1-LogRex Webserver: Accelerate HIV-1 Protease Inhibitor Discovery]")
+st.divider()
 cola1, cola2 = st.columns([0.4, 0.6], gap="large")
 cola2.image("project_data/homepageimage.png", width=None, use_column_width="auto")
 cola2.subheader(":rainbow[Calculating Octapeptide Sequence Descriptors]")
+
+# cola11, cola22 = st.columns([0.8, 0.2], gap="large")
+# cola11.title(":rainbow[Welcome to HIV1-LogRex Webserver]")
+# cola11.divider()
+# cola1, cola2 = st.columns([0.4, 0.6], gap="large")
+# cola2.image("project_data/homepageimage.png", width=None, use_column_width="auto")
+# cola2.subheader(":rainbow[Calculating Octapeptide Sequence Descriptors]")
 
 st.divider()
 

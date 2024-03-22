@@ -9,12 +9,19 @@ st.set_page_config(page_title="Home",
                    initial_sidebar_state="expanded",
                    menu_items={'About': "HIV1-LogRex: Predicting Octapeptide Sequence Cleavage Site"})
 
-cola11, cola22 = st.columns([0.8, 0.2], gap="large")
-cola11.title(":rainbow[Welcome to HIV1-LogRex Webserver]")
-cola11.divider()
+
+st.write("## :rainbow[Welcome to HIV1-LogRex Webserver: Accelerate HIV-1 Protease Inhibitor Discovery]")
+st.divider()
 cola1, cola2 = st.columns([0.4, 0.6], gap="large")
 cola2.image("project_data/homepageimage.png", width=None, use_column_width="auto")
 cola2.subheader(":rainbow[Predicting Octapeptide Sequence Cleavage Site]")
+
+# cola11, cola22 = st.columns([0.8, 0.2], gap="large")
+# cola11.title(":rainbow[Welcome to HIV1-LogRex Webserver]")
+# cola11.divider()
+# cola1, cola2 = st.columns([0.4, 0.6], gap="large")
+# cola2.image("project_data/homepageimage.png", width=None, use_column_width="auto")
+# cola2.subheader(":rainbow[Predicting Octapeptide Sequence Cleavage Site]")
 
 with st.container():
     st.markdown("***")
@@ -153,5 +160,8 @@ with st.container():
           Search for Structural Scaffolds Against SARS-COV-2 Mpro: An In Silico Study. Journal of Fundamental and Applied 
           Sciences, 13(2), 740-769.   
           [https://jfas.info/index.php/JFAS/article/view/987](https://jfas.info/index.php/JFAS/article/view/987).  
+                
+    #### If you utilize HIV1-LogRex in your research, please cite it as follows:
+      - Onah E. (2024). HIV1-LogRex: Accelerate HIV-1 Protease Inhibitor Discovery (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.
     """)
 
