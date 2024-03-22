@@ -19,6 +19,6 @@ URL: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_
 
 
 # Citation:
-**If you make use of ChemFetchTool in your work, cite it as follows:**
+**If you make use of HIV-1-LogRex Server in your work, cite it as follows:**
 
-**Emmanuel Onah. (2024). HIV-1-LogRex (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.**
+**Onah E. (2024). HIV-1-LogRex (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.**
