@@ -39,4 +39,4 @@ We welcome your feedback and suggestions for further enhancing **HIV1-LogRex**. 
 ## Citation: [![DOI](https://zenodo.org/badge/556917932.svg)](https://zenodo.org/doi/10.5281/zenodo.10851066)
 **If you utilize HIV1-LogRex in your research, please cite it as follows:**
 
-**Onah E. (2024). HIV1-LogRex (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.**
+**Onah E. (2024). HIV1-LogRex: Accelerate HIV-1 Protease Inhibitor Discovery (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.**
