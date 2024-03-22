@@ -1,5 +1,5 @@
 # YAML 1.2
-# Metadata for citation of ChemFetchTool according to the CFF format (https://citation-file-format.github.io/)
+# Metadata for citation of Hiv-1-LogRex according to the CFF format (https://citation-file-format.github.io/)
 cff-version: 1.2.0
 message: "If you use Hiv-1-LogRex in your research, please cite it using this information."
 authors:
