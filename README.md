@@ -1,6 +1,6 @@
 # Welcome to HIV1-LogRex Webserver [![DOI](https://zenodo.org/badge/556917932.svg)](https://zenodo.org/doi/10.5281/zenodo.10851066)
 
-URL: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hiv-1-logrex.streamlit.app/)
+URL: [https://hiv-1-logrex.streamlit.app/](https://hiv-1-logrex.streamlit.app/)
 
 ##  This server impliments varied algorithms for octapeptide descriptors calculations and the logistic regression model (`HIV1-LogRex`) for HIV-1 protease cleavage site prediction for various machine/deep learning applications in bioinformatics.
 ##### This work has been published at _BMC Bioinformatics_ [https://doi.org/10.1186/s12859-022-05017-x](https://doi.org/10.1186/s12859-022-05017-x)
