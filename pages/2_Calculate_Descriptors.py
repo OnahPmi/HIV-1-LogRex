@@ -245,6 +245,6 @@ with st.container():
 
         st.divider()
 
-    st.markdown("""#### If you utilize HIV1-LogRex in your research, please cite it as follows:  
+    st.markdown("""#### If you utilize :rainbow[HIV1-LogRex] in your research, please cite it as follows:  
     Onah E. (2024). HIV1-LogRex: Accelerate HIV-1 Protease Inhibitor Discovery (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.""")
 
