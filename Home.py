@@ -92,7 +92,7 @@ with st.expander("See Details Related to the Model's Training Procedure", expand
     col5.metric("Specificity", "0.90")
     col6.metric("Sensitivity", "0.57")
     
-with st.expander("Charts Related to the Model's Training Procedure", expanded=True):    
+with st.expander("Charts Related to the Model's Training Procedure", expanded=False):    
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["ROC Curves", 
                                             "Model Training Algorithm", 
                                             "Feature Importance Plot by GBC", 
