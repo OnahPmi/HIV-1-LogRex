@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -17,26 +11,37 @@ from sklearn.linear_model import LogisticRegression
 #                                          Page configuration and Sidebar Creation                                            #
 ###############################################################################################################################
 
+st.set_page_config(page_title="Calculate Descriptors", 
+                   page_icon="project_data/favicon.jpg", 
+                   layout="wide", 
+                   initial_sidebar_state="expanded",
+                   menu_items={'About': "HIV1-LogRex: Predicting Octapeptide Sequence Cleavage Site"})
 
-st.set_page_config(page_title="Calculate Descriptors", page_icon="project_data/favicon.jpg", layout="wide", 
-                   initial_sidebar_state="expanded")
+cola11, cola22 = st.columns([0.8, 0.2], gap="large")
+cola11.title(":rainbow[Welcome to HIV1-LogRex Webserver]")
+cola11.divider()
+cola1, cola2 = st.columns([0.4, 0.6], gap="large")
+cola2.image("project_data/homepageimage.png", width=None, use_column_width="auto")
+cola2.subheader(":rainbow[Calculating Octapeptide Sequence Descriptors]")
 
-st.markdown("***")
-st.markdown("""
-<div style='text-align:center'><h3>Implimented Algorithms for Generating Calculated Hybrid Descriptors for Machine/Deep 
-Learning Applications.</h2></div>
-""", unsafe_allow_html=True)
-st.markdown("***")
+st.divider()
+
+# st.markdown("***")
+# st.markdown("""
+# <div style='text-align:center'><h3>Implimented Algorithms for Generating Calculated Hybrid Descriptors for Machine/Deep 
+# Learning Applications.</h2></div>
+# """, unsafe_allow_html=True)
+# st.markdown("***")
 
 with st.sidebar:
-    user_input = st.text_area("Paste Octapeptide Sequences", 
+    user_input = st.text_area("#### :blue[Paste Octapeptide Sequences]", 
                        placeholder="E.g.\nVDGFLVGG\nWDNLLAVI\nAECFRIFD\nHLVEALYL", 
                        max_chars=None,
                        height=130,
                        label_visibility="visible").strip(" ,:;.")
     octapeptides = user_input.upper().split("\n")
 
-    action = st.button("Calculate Descriptors")
+    action = st.button("Calculate Descriptors", type="primary")
     
 ###############################################################################################################################
 #                                             AABP → Amino Acid Binary Profile                                                #
@@ -187,8 +192,7 @@ with st.container():
                     descriptors_for_prediction = pd.concat([AABPs_arr_df, PCP_BS_df, PCP_HL_df], axis=1)
                     descriptors_with_octapeptides = pd.concat([octapeptides_arr_df, AABPs_arr_df, PCP_BS_df, PCP_HL_df], axis=1)
 
-
-#                     @st.cache # IMPORTANT: Cache the conversion to prevent computation on every rerun, but not necessary here
+                    @st.cache_data
                     def convert_df(df):
                         return df.to_csv(index=False).encode('utf-8')
 
@@ -231,19 +235,14 @@ with st.container():
                 st.markdown("### No octapeptide sequences pasted!", unsafe_allow_html=False)
                 st.stop()
         except:
-            st.markdown("""
-            **Invalid entry detected! Your pasted sequences may contain `empty lines` or `an invalid letter representation 
-            of an amino acid residue` or `atleast one sequence length is not 8!` Please paste valid sequences!**""", 
-                        unsafe_allow_html=False)
+            st.markdown("""#### Invalid entry detected! Your pasted sequences may contain :red[empty lines] or :red[an invalid letter representation of an amino acid residue] or :red[atleast one sequence length is not 8]! Please paste valid sequences!""",)
             
             final_time=time.time()
             elapesd_time=final_time-initial_time
             st.markdown(f"This took **_{round(elapesd_time, 2)}_** seconds to complete.")
             st.markdown("***")   
     else:
-        st.markdown("""
-        **Your calculated descriptors will appear below once you paste your octapeptide sequences and Click the 
-        `Calculate Descriptors` button in the Sidebar**""", 
-                    unsafe_allow_html=False)
-        st.markdown("***")
+        st.write("""##### Your calculated descriptors will appear below once you paste your octapeptide sequences and Click the :red[|Calculate Descriptors|] button in the Sidebar""")
+
+        st.divider()
 
