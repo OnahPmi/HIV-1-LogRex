@@ -32,13 +32,6 @@ cola2.subheader(":rainbow[Calculating Octapeptide Sequence Descriptors]")
 
 st.divider()
 
-# st.markdown("***")
-# st.markdown("""
-# <div style='text-align:center'><h3>Implimented Algorithms for Generating Calculated Hybrid Descriptors for Machine/Deep 
-# Learning Applications.</h2></div>
-# """, unsafe_allow_html=True)
-# st.markdown("***")
-
 with st.sidebar:
     user_input = st.text_area("#### :blue[Paste Octapeptide Sequences]", 
                        placeholder="E.g.\nVDGFLVGG\nWDNLLAVI\nAECFRIFD\nHLVEALYL", 

@@ -12,5 +12,5 @@ publisher: "Zenodo"
 doi: 10.5281/zenodo.10851067
 date-released: 2022-10-27
 license: "MIT License"
-description: "HIV1-LogRex implements varied algorithms for octapeptide descriptors calculations and the logistic regression model for HIV-1 protease octapeptide cleavage site prediction "
+description: "HIV1-LogRex implements the logistic regression model for HIV-1 protease octapeptide cleavage site prediction and varied algorithms for octapeptide descriptors calculations"
 url: "https://hiv-1-logrex.streamlit.app/"
