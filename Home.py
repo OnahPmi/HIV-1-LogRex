@@ -139,14 +139,14 @@ with st.container():
        vol. 2022, Article ID 8513719, 17 pages [https://doi.org/10.1155/2022/8513719](https://doi.org/10.1155/2022/8513719).
        
     #### Inspiration  
-     * A lot of inspirations was drawn from the works of the Raghava group, headed by Professor Raghava, the Head of the 
-       Department of Computational Biology, Indraprastha Institute of Information Technology (IIIT-Delhi), India. Particularly, 
-       their work on the [pfeature software](https://github.com/raghavagps/Pfeature) gave us insight on developing the various 
-       algorithms for generating the Amino Acid Binary Profile, Composition of Basic and Hydrophilic Residues present in 
-       Octapeptides. Worthy of note also is the work of [Singh & Su](https://doi.org/10.1186/s12859-016-1337-6). 
+      > A lot of inspirations was drawn from the works of the Raghava group, headed by Professor Raghava, the Head of the 
+        Department of Computational Biology, Indraprastha Institute of Information Technology (IIIT-Delhi), India. Particularly, 
+        their work on the [pfeature software](https://github.com/raghavagps/Pfeature) gave us insight on developing the various 
+        algorithms for generating the Amino Acid Binary Profile, Composition of Basic and Hydrophilic Residues present in 
+        Octapeptides. Worthy of note also is the work of [Singh & Su](https://doi.org/10.1186/s12859-016-1337-6). 
                 
     #### Links to Other Tools by the same author 
-    * ###### [:blue[ChemFetchTool: Automate Molecular Properties Retrieval from PubChem]](https://github.com/OnahPmi/ChemFetchTool).  
+    * ###### [:blue[ChemFetchTool: Automate Molecular Properties Retrieval from PubChem]](https://chemfetchtool.streamlit.app/).  
       > ChemFetchTool is a web-based tool employing the PubChem PUG REST API endpoint for automated retrieval of molecular properties 
         given only the compound name(s)
     
