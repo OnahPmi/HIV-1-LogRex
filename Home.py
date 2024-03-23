@@ -131,36 +131,44 @@ with st.expander("Charts Related to the Model's Training Procedure", expanded=Fa
     
 with st.container():
     st.markdown("""
-    #### References:    
+    ### Further information
+
+    #### References    
      * Warut P, Kwanluck TA, Kasidit S, Parthana P, Jirachai B. "Hyperparameter Tuning of Machine Learning Algorithms
        Using Response Surface Methodology: A Case Study of ANN, SVM, and DBN", Mathematical Problems in Engineering. 2022,
        vol. 2022, Article ID 8513719, 17 pages [https://doi.org/10.1155/2022/8513719](https://doi.org/10.1155/2022/8513719).
        
-    #### Further information:  
+    #### Inspiration  
      * A lot of inspirations was drawn from the works of the Raghava group, headed by Professor Raghava, the Head of the 
        Department of Computational Biology, Indraprastha Institute of Information Technology (IIIT-Delhi), India. Particularly, 
        their work on the [pfeature software](https://github.com/raghavagps/Pfeature) gave us insight on developing the various 
        algorithms for generating the Amino Acid Binary Profile, Composition of Basic and Hydrophilic Residues present in 
        Octapeptides. Worthy of note also is the work of [Singh & Su](https://doi.org/10.1186/s12859-016-1337-6). 
+                
+    #### Links to Other Tools by the same author 
+    * ###### [:blue[ChemFetchTool: Automate Molecular Properties Retrieval from PubChem]](https://github.com/OnahPmi/ChemFetchTool).  
+      > ChemFetchTool is a web-based tool employing the PubChem PUG REST API endpoint for automated retrieval of molecular properties 
+        given only the compound name(s)
     
-     * The authors have published a number of works in the _in silico_ drug design/bioinformatics domain spanning across
-       various disease conditions like `Cancer`, `Infectious Diseases`, and `Neurodegenerative Disorders`. Notable examples
-       include:  
-        * Ibezim A, Onah E, Osigwe SC, Okoroafor PU, Ukoha OP, De Siqueira-Neto JL, Ntie-Kang F and Ramanathan, K. Potential 
-          Dual Inhibitors of Hexokinases and Mitochondrial Complex I Discovered Through Machine Learning Approach. Available at SSRN:  
-          [https://dx.doi.org/10.2139/ssrn.4635544](https://dx.doi.org/10.2139/ssrn.4635544)
-        * Onah E, Uzor PF, Ugwoke IC, Eze JU, Ugwuanyi ST, Chukwudi IR, Ibezim A. Prediction of HIV-1 protease cleavage site 
-          from octapeptide sequence information using selected classifiers and hybrid descriptors. BMC Bioinformatics. 2022 Nov 
-          8;23(1):466. PMID: 36344934. PMCID: 9641908.  
-          [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9641908/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9641908/). 
-        * Ibezim A, Onah E, Dim EN, Ntie-Kang F. A computational multi-targeting approach for drug repositioning for psoriasis 
-          treatment. BMC Complement Med Ther. 2021 Jul 5;21(1):193. PMID: 34225727. PMCID: 8258956.  
-          [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8258956/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8258956/).
-        * Onah, E., Ugwoke, I., Eze, U., Eze, H., Musa, S., Ndiana-Abasi, S., Okoli, O., Ekeh, I., & Edet, A. (2021). 
-          Search for Structural Scaffolds Against SARS-COV-2 Mpro: An In Silico Study. Journal of Fundamental and Applied 
-          Sciences, 13(2), 740-769.   
-          [https://jfas.info/index.php/JFAS/article/view/987](https://jfas.info/index.php/JFAS/article/view/987).
-          """)
+    #### Authors' Publications              
+      > The authors have published a number of works in the _in silico_ drug design/bioinformatics domain spanning across
+        various disease conditions like `Cancer`, `Infectious Diseases`, and `Neurodegenerative Disorders`. Notable examples
+        include:  
+      * Ibezim A, Onah E, Osigwe SC, Okoroafor PU, Ukoha OP, De Siqueira-Neto JL, Ntie-Kang F and Ramanathan, K. Potential 
+        Dual Inhibitors of Hexokinases and Mitochondrial Complex I Discovered Through Machine Learning Approach. Available at SSRN:  
+        [https://dx.doi.org/10.2139/ssrn.4635544](https://dx.doi.org/10.2139/ssrn.4635544)
+      * Onah E, Uzor PF, Ugwoke IC, Eze JU, Ugwuanyi ST, Chukwudi IR, Ibezim A. Prediction of HIV-1 protease cleavage site 
+        from octapeptide sequence information using selected classifiers and hybrid descriptors. BMC Bioinformatics. 2022 Nov 
+        8;23(1):466. PMID: 36344934. PMCID: 9641908.  
+        [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9641908/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9641908/). 
+      * Ibezim A, Onah E, Dim EN, Ntie-Kang F. A computational multi-targeting approach for drug repositioning for psoriasis 
+        treatment. BMC Complement Med Ther. 2021 Jul 5;21(1):193. PMID: 34225727. PMCID: 8258956.  
+        [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8258956/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8258956/).
+      * Onah, E., Ugwoke, I., Eze, U., Eze, H., Musa, S., Ndiana-Abasi, S., Okoli, O., Ekeh, I., & Edet, A. (2021). 
+        Search for Structural Scaffolds Against SARS-COV-2 Mpro: An In Silico Study. Journal of Fundamental and Applied 
+        Sciences, 13(2), 740-769.   
+        [https://jfas.info/index.php/JFAS/article/view/987](https://jfas.info/index.php/JFAS/article/view/987).
+        """)
     st.markdown("""#### If you utilize :rainbow[HIV1-LogRex] in your research, please cite it as follows:  
     Onah E. (2024). HIV1-LogRex: Accelerate HIV-1 Protease Inhibitor Discovery (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10851067.""")
 
